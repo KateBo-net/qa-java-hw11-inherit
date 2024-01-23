@@ -21,7 +21,6 @@ public class TodosTest {
 
     @Test
     public void shouldAddThreeTasksOfDifferentType() {
-
         todos.add(simpleTask);
         todos.add(epic);
         todos.add(meeting);
@@ -34,7 +33,6 @@ public class TodosTest {
 
     @Test
     public void shouldFindTask() {
-
         todos.add(simpleTask);
         todos.add(epic);
         todos.add(meeting);
@@ -47,7 +45,6 @@ public class TodosTest {
 
     @Test
     public void shouldNotFindTask() {
-
         todos.add(simpleTask);
         todos.add(epic);
         todos.add(meeting);

@@ -17,7 +17,6 @@ public class TasksTest {
 
     @Test
     public void shouldFindTaskInSimpleTask() {
-
         Boolean expected = true;
         Boolean actual = simpleTask.matches("Позвонить");
 
@@ -26,7 +25,6 @@ public class TasksTest {
 
     @Test
     public void shouldNotFindTaskInSimpleTask() {
-
         Boolean expected = false;
         Boolean actual = simpleTask.matches("hello");
 
@@ -35,7 +33,6 @@ public class TasksTest {
 
     @Test
     public void shouldFindTaskInEpic() {
-
         Boolean expected = true;
         Boolean actual = epic.matches("Хле");
 
@@ -44,7 +41,6 @@ public class TasksTest {
 
     @Test
     public void shouldNotFindTaskInEpic() {
-
         Boolean expected = false;
         Boolean actual = epic.matches("Винишко");
 
@@ -53,7 +49,6 @@ public class TasksTest {
 
     @Test
     public void shouldFindTaskInMeetingProject() {
-
         Boolean expected = true;
         Boolean actual = meeting.matches("НетоБанк");
 
@@ -62,7 +57,6 @@ public class TasksTest {
 
     @Test
     public void shouldFindTaskInMeetingTopic() {
-
         Boolean expected = true;
         Boolean actual = meeting.matches("Выкатка");
 
@@ -71,7 +65,6 @@ public class TasksTest {
 
     @Test
     public void shouldNotFindTaskInMeeting() {
-
         Boolean expected = false;
         Boolean actual = meeting.matches("СберБанк");
 
